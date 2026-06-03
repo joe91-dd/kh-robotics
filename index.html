@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHound - 未来智能机器狗科技</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .tech-font { font-family: 'Orbitron', sans-serif; }
+        /* 霓虹蓝发光特效 */
+        .neon-glow {
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+        }
+        .neon-border:focus {
+            box-shadow: 0 0 15px rgba(6, 182, 212, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-slate-100 min-h-screen overflow-x-hidden selection:bg-cyan-500 selection:text-slate-950">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/60 backdrop-blur-md border-b border-cyan-500/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="tech-font text-2xl font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                CYBER<span class="text-white">HOUND</span>
+            </a>
+            <nav class="hidden md:flex space-x-10 text-sm tracking-wide text-slate-400">
+                <a href="#banner" class="hover:text-cyan-400 transition-colors">首页</a>
+                <a href="#products" class="hover:text-cyan-400 transition-colors">产品矩阵</a>
+                <a href="#about" class="hover:text-cyan-400 transition-colors">关于我们</a>
+                <a href="#contact" class="hover:text-cyan-400 transition-colors">商务合作</a>
+            </nav>
+            <div class="hidden md:flex">
+                <a href="#contact" class="px-5 py-2 border border-cyan-500/30 rounded-full text-xs tech-font tracking-wider text-cyan-400 hover:bg-cyan-500/10 transition-all">
+                    GET STARTED
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner" class="relative h-screen flex items-center justify-center pt-20">
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#08152c_1px,transparent_1px),linear-gradient(to_bottom,#08152c_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-60"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 w-full grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-cyan-950/50 border border-cyan-500/30 px-3 py-1 rounded-full text-xs text-cyan-400 tech-font">
+                    <span>●</span> <span>NEXT-GEN AUTONOMY</span>
+                </div>
+                <h1 class="tech-font text-5xl md:text-7xl font-bold tracking-tight leading-none">
+                    ALPHA-4 <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">四足陆面体</span>
+                </h1>
+                <p class="text-slate-400 max-w-md text-base leading-relaxed">
+                    搭载端到端具身智能大模型，专为复杂地形巡检、应急救援与全场景工业协同而生的未来进化级机器狗。
+                </p>
+                <div class="flex space-x-4 pt-4">
+                    <a href="#products" class="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-semibold rounded-md hover:opacity-90 transition-opacity">
+                        了解详情
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center relative">
+                <div class="w-80 h-80 md:w-112 md:h-112 rounded-full bg-cyan-500/10 blur-3xl absolute -z-10 animate-pulse"></div>
+                <div class="w-full max-w-md aspect-square bg-slate-900/40 border border-cyan-500/20 rounded-2xl flex items-center justify-center neon-glow">
+                    <div class="text-center p-6">
+                        <div class="tech-font text-cyan-500 text-xs tracking-widest mb-2">[ 3D RENDER INTERACTIVE AREA ]</div>
+                        <p class="text-xs text-slate-500">此处可嵌入 Three.js 机器狗三维模型</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-3">
+            <button class="w-12 h-1 bg-cyan-400 rounded-full"></button>
+            <button class="w-6 h-1 bg-slate-700 hover:bg-slate-500 rounded-full transition-colors"></button>
+            <button class="w-6 h-1 bg-slate-700 hover:bg-slate-500 rounded-full transition-colors"></button>
+        </div>
+    </section>
+
+    <section id="products" class="py-32 relative bg-slate-950/40">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-20 space-y-3">
+                <h2 class="tech-font text-xs tracking-widest text-cyan-400 uppercase font-semibold">Product Matrix</h2>
+                <p class="text-3xl font-bold tracking-tight">核心产品矩阵</p>
+                <div class="w-12 h-0.5 bg-cyan-500 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-xl hover:border-cyan-500/30 transition-all duration-300 group">
+                    <div class="h-48 bg-slate-950/80 rounded-lg mb-6 flex items-center justify-center text-slate-600 group-hover:text-cyan-400/80 transition-colors">
+                        <span class="tech-font text-xs">[ 工业巡检级 - Alpha-I ]</span>
+                    </div>
+                    <h3 class="tech-font text-xl font-bold mb-2">Alpha-I 工业版</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">集成激光雷达与热成像，具备全天候防尘防水能力，专为危险电力、化工园区巡检打造。</p>
+                </div>
+                <div class="bg-slate-900/30 border border-cyan-500/20 p-8 rounded-xl shadow-lg shadow-cyan-950/20 relative group">
+                    <div class="absolute -top-3 left-6 px-3 py-0.5 bg-cyan-500 text-slate-950 text-xs tech-font font-bold rounded-full">FLAGSHIP</div>
+                    <div class="h-48 bg-slate-950/80 rounded-lg mb-6 flex items-center justify-center text-cyan-400">
+                        <span class="tech-font text-xs">[ 具身智能旗舰 - Alpha-X ]</span>
+                    </div>
+                    <h3 class="tech-font text-xl font-bold mb-2">Alpha-X 旗舰版</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">内置 200 TOPS 高算力芯片，支持复杂地形自主导航与动态避障，引领具身智能新时代。</p>
+                </div>
+                <div class="bg-slate-900/30 border border-slate-800 p-8 rounded-xl hover:border-cyan-500/30 transition-all duration-300 group">
+                    <div class="h-48 bg-slate-950/80 rounded-lg mb-6 flex items-center justify-center text-slate-600 group-hover:text-cyan-400/80 transition-colors">
+                        <span class="tech-font text-xs">[ 教育科研级 - Alpha-Edu ]</span>
+                    </div>
+                    <h3 class="tech-font text-xl font-bold mb-2">Alpha-Edu 教育版</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">完全开源的 ROS2 接口与仿真环境，助力高校及科研机构攻克运动控制算法难题。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <h2 class="tech-font text-xs tracking-widest text-cyan-400 uppercase font-semibold">About CyberHound</h2>
+                <p class="text-3xl font-bold tracking-tight">用敏捷步伐，重塑未来生产力</p>
+                <p class="text-slate-400 leading-relaxed">
+                    CyberHound 创立于 2024 年，是全球领先的具身智能四足机器人研发企业。我们专注于突破高级运动控制算法、高功率密度关节驱动器以及多模态感知大模型的融合。
+                </p>
+                <div class="grid grid-cols-2 gap-6 pt-4 text-center md:text-left">
+                    <div>
+                        <div class="tech-font text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">150+</div>
+                        <div class="text-xs text-slate-500 mt-1">全球核心专利</div>
+                    </div>
+                    <div>
+                        <div class="tech-font text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">30+</div>
+                        <div class="text-xs text-slate-500 mt-1">落地应用行业</div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-2xl p-8 overflow-hidden h-80 flex flex-col justify-between">
+                <div class="absolute top-0 right-0 w-48 h-48 bg-blue-500/5 blur-3xl rounded-full"></div>
+                <div class="tech-font text-xs text-slate-600">// MISSION STATEMENT</div>
+                <p class="text-xl tracking-wide font-light text-slate-300 leading-relaxed">
+                    “让高度灵活的自动化智能走进人类无法触及的每一个角落。”
+                </p>
+                <div class="tech-font text-xs text-cyan-500/60 tracking-wider">ESTABLISHED IN 2024</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-32 bg-slate-950/60 border-t border-slate-900">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-3">
+                <h2 class="tech-font text-xs tracking-widest text-cyan-400 uppercase font-semibold">Connect with Us</h2>
+                <p class="text-3xl font-bold tracking-tight">预约产品演示</p>
+                <p class="text-sm text-slate-500">留下您的联系方式，我们的行业解决方案专家将在 24 小时内与您取得联系。</p>
+            </div>
+
+            <form class="space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label class="text-xs tech-font text-slate-400 tracking-wider">姓名 / NAME</label>
+                        <input type="text" placeholder="您的姓名" class="w-full bg-slate-900/50 border border-slate-800 rounded px-4 py-3 text-sm focus:outline-none focus:border-cyan-500 neon-border transition-all">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs tech-font text-slate-400 tracking-wider">电子邮箱 / EMAIL</label>
+                        <input type="email" placeholder="name@company.com" class="w-full bg-slate-900/50 border border-slate-800 rounded px-4 py-3 text-sm focus:outline-none focus:border-cyan-500 neon-border transition-all">
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-xs tech-font text-slate-400 tracking-wider">公司名称 / COMPANY</label>
+                    <input type="text" placeholder="某某科技有限公司" class="w-full bg-slate-900/50 border border-slate-800 rounded px-4 py-3 text-sm focus:outline-none focus:border-cyan-500 neon-border transition-all">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-xs tech-font text-slate-400 tracking-wider">需求描述 / REQUIREMENT</label>
+                    <textarea rows="4" placeholder="请简要描述您的业务场景或定制化需求..." class="w-full bg-slate-900/50 border border-slate-800 rounded px-4 py-3 text-sm focus:outline-none focus:border-cyan-500 neon-border transition-all"></textarea>
+                </div>
+                <button type="submit" class="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-semibold rounded tech-font tracking-widest text-sm hover:opacity-90 transition-opacity cursor-pointer">
+                    SUBMIT INQUIRY
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-xs text-slate-600 border-t border-slate-900/60">
+        <p>&copy; 2026 CyberHound Robotics. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
